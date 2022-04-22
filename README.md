@@ -3,8 +3,8 @@
 
 ## 1. Download the source code
 ```ruby
-$ git clone https://github.com/entertotheneworld/thp-j9
-$ cd ruby_j9
+$ git clone https://github.com/entertotheneworld/watir-coinmarketcap
+$ cd ruby_watir
 ```
 
 ## 2. Install Gem
@@ -19,7 +19,7 @@ To verify the installation you must have a Gemfile.lock file in the ruby_j9 fold
 ## 3. Testing
 ```ruby
 $ cd lib
-$ ruby app.rb
+$ ruby watir_coinmarketcap.rb
 ```
 
 ## 4. Enjoy
