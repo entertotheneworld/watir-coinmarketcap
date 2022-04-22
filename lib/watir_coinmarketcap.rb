@@ -22,6 +22,7 @@ end
 
 ###################### On charge l'ensemble des données
 def load_information(number_click_load)
+    i=500
     for n in 1..number_click_load
         # On Click sur le bouton load more
         @browser.scroll.to :bottom
@@ -30,7 +31,6 @@ def load_information(number_click_load)
         @browser.driver.manage.timeouts.implicit_wait = 10000
 
         # on charge les données tous les 500 px
-        i=500
         while i < 9999 * n
             @browser.scroll.to [0, i]
             @browser.driver.manage.timeouts.implicit_wait = 10000
