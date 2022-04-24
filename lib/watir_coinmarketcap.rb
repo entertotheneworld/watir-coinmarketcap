@@ -32,7 +32,7 @@ def load_information(number_click_load)
 
     # on charge les données tous les 500 px
     while px < 9999 * n
-      @browser.scroll.to [0, i]
+      @browser.scroll.to [0, px]
       @browser.driver.manage.timeouts.implicit_wait = 10000
       i += 500
     end
